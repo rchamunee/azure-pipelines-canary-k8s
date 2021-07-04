@@ -7,7 +7,7 @@ pool:
 variables:
   imageName: azure-pipelines-canary-k8s
   dockerRegistryServiceConnection: 'azure-pipelines-canary-acr'
-  imageRepository: 'azure-pipelines-canary-k8s'
+  imageRepository: 'azure-pipelines-canary-acr'
   containerRegistry: scbacr01.azurecr.io #replace with the name of your container registry, Should be in the format foobar.azurecr.io
   tag: '$(Build.BuildId)'
 
